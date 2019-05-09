@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>sass課題</title>
+  <link rel="stylesheet" href="scss/main.css">
+  <link rel="stylesheet" href="scss/reset.css">
+</head>
+<body>
+  <header>
+    <a class="nav-trigger" id="js-toggle_menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </a>
+    <nav>
+      <ul>
+        <li>CodeVillage</li>
+        <li><a href="#">Misson</a></li>
+        <li><a href="#">Service</a></li>
+        <li><a href="#">Company</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <div class="top_img">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, illo quis rerum eveniet error commodi asperiores earum,</p>
+    </div>
+    <section class="misson">
+      <div class="container">
+        <h2 class="heading2">Misson</h2>
+        <p>Mission説明。Mission説明。Mission説明。Mission説明。Mission説明。Mission説明。Mission説明。Mission説明。</p>
+        <p>Mission説明。Mission説明。Mission説明。Mission説明。Mission説明。Mission説明。Mission説明。Mission説明。</p>
+        <p>Mission説明。Mission説明。Mission説明。Mission説明。Mission説明。Mission説明。Mission説明。Mission説明。</p>
+      </div>
+    </section>
+    <section class="service">
+      <div class="container">
+      <h2 class="heading2">Service</h2>
+      <ul class="service_item">
+        <li>
+          <img src="./img/business1.jpg" alt="ビジネス1" width="100%" height="200px">
+          <h3 class="heading3">ビジネスA</h3>
+          <p>説明説明説明説明説明説明説明説明説明説明</p>
+        </li>
+        <li>
+          <img src="./img/business2.jpg" alt="ビジネス2" width="100%" height="200px">
+          <h3 class="heading3">ビジネスB</h3>
+          <p>説明説明説明説明説明説明説明説明説明説明</p>
+        </li>
+        <li>
+          <img src="./img/business3.jpg" alt="ビジネス3" width="100%" height="200px">
+          <h3 class="heading3">ビジネスC</h3>
+          <p>説明説明説明説明説明説明説明説明説明説明</p>
+        </li>
+
+      </ul>
+      </div>
+    </section>
+    <section class="company">
+      <div class="container">
+        <h2 class="heading2">Company</h2>
+        <table class="about_company">
+
+        <tr>
+          <td>会社名</td>
+          <td>株式会社CodeVillage</td>
+        </tr>
+        <tr>
+          <td>住所</td>
+          <td>111-1111 東京都豊島区</td>
+        </tr>
+        <tr>
+          <td>TEL</td>
+          <td>03-1234-5678</td>
+        </tr>
+        <tr>
+          <td>FAX</td>
+          <td>03-1234-5678</td>
+        </tr>
+        <tr>
+          <td>事業内容</td>
+          <td>
+            <ul>
+              <li>事業1</li>
+              <li>事業2</li>
+              <li>事業3</li>
+              <li>事業4</li>
+              <li>事業5</li>
+            </ul>
+          </td>
+
+        </tr>
+      </table>
+
+      </div>
+    </section>
+    <section class="contact">
+      <div class="container">
+        <h2 class="heading2">Contact</h2>
+        <div class="contact_form">
+          <ul>
+            <li><input type="text" name="会社名" value="" placeholder="会社名"  ></li>
+            <li><input type="text" name="お名前" value="" placeholder="お名前" ></li>
+            <li><input type="text" name="Email" value="" placeholder="Email"></li>
+            <li><input type="text" name="TEl" value="" placeholder="Tel"></li>
+          </ul>
+          <textarea name="name" rows="8" placeholder="お問い合わせ内容"></textarea>
+        </div>
+        <div id="send_btn">
+          <input type="submit" name="send" value="Send">
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    Copyright 2019 CodeVillage.Inc All Rights Reserved.
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="main.js"></script>
+  
+</body>
+</html>
